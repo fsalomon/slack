@@ -56,6 +56,8 @@ CL\Slack\Model\File:
             serialized_name: thumb_360_h
         permalink:
             type: string
+        permalinkPublic:
+            type: string
         editLink:
             type: string
         preview:

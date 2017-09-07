@@ -141,6 +141,11 @@ class File extends AbstractModel
     /**
      * @var string|null
      */
+    private $permalinkPublic;
+
+    /**
+     * @var string|null
+     */
     private $editLink;
 
     /**
@@ -377,6 +382,14 @@ class File extends AbstractModel
     public function getPermalink()
     {
         return $this->permalink;
+    }
+
+    /**
+     * @return string|null
+     */
+    public function getPermalinkPublic()
+    {
+        return $this->permalinkPublic;
     }
 
     /**
