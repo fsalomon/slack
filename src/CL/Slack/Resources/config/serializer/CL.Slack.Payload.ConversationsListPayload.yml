@@ -1,0 +1,4 @@
+CL\Slack\Payload\ConversationsListPayload:
+    properties:
+        alreadyArchived:
+            type: boolean
