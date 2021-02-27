@@ -65,6 +65,6 @@ class ConversationsKickPayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.kick';
+        return 'conversations.kick';
     }
 }

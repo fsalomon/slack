@@ -44,6 +44,6 @@ class ConversationsInfoPayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.info';
+        return 'conversations.info';
     }
 }

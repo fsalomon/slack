@@ -44,6 +44,6 @@ class ConversationsUnarchivePayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.unarchive';
+        return 'conversations.unarchive';
     }
 }

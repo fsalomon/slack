@@ -44,6 +44,6 @@ class ConversationsJoinPayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.join';
+        return 'conversations.join';
     }
 }

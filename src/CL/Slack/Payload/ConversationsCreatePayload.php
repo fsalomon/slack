@@ -46,6 +46,6 @@ class ConversationsCreatePayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.create';
+        return 'conversations.create';
     }
 }

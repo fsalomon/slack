@@ -131,6 +131,6 @@ class ConversationsHistoryPayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.history';
+        return 'conversations.history';
     }
 }

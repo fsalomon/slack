@@ -65,6 +65,6 @@ class ConversationsMarkPayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.mark';
+        return 'conversations.mark';
     }
 }

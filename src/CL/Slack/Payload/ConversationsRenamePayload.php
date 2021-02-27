@@ -65,6 +65,6 @@ class ConversationsRenamePayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.rename';
+        return 'conversations.rename';
     }
 }

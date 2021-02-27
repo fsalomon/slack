@@ -65,6 +65,6 @@ class ConversationsInvitePayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.invite';
+        return 'conversations.invite';
     }
 }

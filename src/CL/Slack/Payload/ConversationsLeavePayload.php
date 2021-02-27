@@ -44,6 +44,6 @@ class ConversationsLeavePayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.leave';
+        return 'conversations.leave';
     }
 }

@@ -65,6 +65,6 @@ class ConversationsSetPurposePayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.setPurpose';
+        return 'conversations.setPurpose';
     }
 }

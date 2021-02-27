@@ -65,6 +65,6 @@ class ConversationsSetTopicPayload extends AbstractPayload
      */
     public function getMethod()
     {
-        return 'channels.setTopic';
+        return 'conversations.setTopic';
     }
 }
