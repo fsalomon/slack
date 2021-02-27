@@ -1,0 +1,4 @@
+CL\Slack\Payload\ConversationsLeavePayloadResponse:
+    properties:
+        notInChannel:
+            type: boolean

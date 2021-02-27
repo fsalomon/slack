@@ -1,0 +1,4 @@
+CL\Slack\Payload\ConversationsSetPurposePayloadResponse:
+    properties:
+        purpose:
+            type: string

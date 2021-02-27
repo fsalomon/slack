@@ -1,0 +1,6 @@
+CL\Slack\Payload\ConversationsMarkPayload:
+    properties:
+        channel:
+            type: string
+        ts:
+            type: string

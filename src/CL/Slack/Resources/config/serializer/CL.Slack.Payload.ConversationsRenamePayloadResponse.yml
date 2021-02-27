@@ -1,0 +1,4 @@
+CL\Slack\Payload\ConversationsRenamePayloadResponse:
+    properties:
+        channel:
+            type: CL\Slack\Model\Channel
